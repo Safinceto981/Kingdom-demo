@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Kindom.Models;
+using System;
 
 namespace Kindom
 {
@@ -6,7 +7,9 @@ namespace Kindom
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Troll troll = new Troll();
+            troll.Fight();
+            troll.WashMySocks();
         }
     }
 }
